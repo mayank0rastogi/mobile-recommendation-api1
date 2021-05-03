@@ -44,5 +44,6 @@ def rec():
     get_n=recomm_try.recommendation(active_user,k)
     return render_template("index-1.html", getit=get_n)
 '''
+if __name__ == "__main__":
+ app.run(debug=True)
 
-app.run(debug=True)
